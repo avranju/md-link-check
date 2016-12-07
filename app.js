@@ -13,10 +13,6 @@ const EXCLUDE_FOLDERS = [
   '.git'
 ];
 
-const LINK_TYPE_LINK = 0;
-const LINK_TYPE_REF = 1;
-const LINK_TYPE_REF_REF = 2;
-
 function checkUsage() {
   if(process.argv.length < 3) {
     console.error(`\nUsage:\n\tnode ${process.argv[1]} <<path to folder>>`);
